@@ -8,4 +8,5 @@ mysqli_select_db($con,"ee09");
 $tresc="INSERT INTO ratownicy(nrKaretki,ratownik1,ratownik2,ratownik3) VALUES('$nr','$r1','$r2','$r3')";
 $zap= mysqli_query($con,$tresc);
 echo"Do bazy zostało wysłane zapytanie: ".$tresc;
+mysqli_close($con);
 ?>
