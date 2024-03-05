@@ -1,0 +1,42 @@
+html
+{
+    font-family: Arial;
+}
+.gora,.dol
+{
+    background-color: saddlebrown;
+    color: white ;
+    display: flex;
+    height: 100px;
+}
+.gl,.dl
+{
+    width: 55%;
+    font-size: 120%;
+}
+.gs,.foot
+{
+    width: 25%;
+}
+.img, .autor
+{
+    width: 20%;
+    text-align: right;
+}
+.srodek
+{
+    padding: 70px;
+    background-color: snow;
+}
+a
+{
+    border: dotted 2px saddlebrown;
+    color: saddlebrown;
+    background-color: snow;
+    padding: 20px;
+    line-height: 100px;
+}
+ol
+{
+    list-style: lower-latin;
+}
